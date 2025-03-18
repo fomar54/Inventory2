@@ -5,7 +5,6 @@
  * Date: March 14 2024 
  */
 	package Inventoryproject;
-	import java.util.Scanner;
 	import java.io.*;
 	import java.util.ArrayList;
 
@@ -41,7 +40,7 @@
 		public void Viewlocation() {
 	    // looping through the ArrayList and printing each item and there index size number
 		for(Materials locations: this.storage) {
-			System.out.println(locations.toString() + this.storage.size());
+			System.out.println(   locations.toString() + " \n Index #: "  + this.storage.indexOf(locations)  );
 			
 		}	 
 

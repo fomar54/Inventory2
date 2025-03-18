@@ -10,7 +10,6 @@
 package Inventoryproject;
 
 
-	import java.util.ArrayList;
 
 	public class Materials {
 	 private String materialName;
@@ -23,6 +22,10 @@ package Inventoryproject;
 		public static void main(String[] args) {
 			Materials supplies = new Materials("hi");
 			
+		}
+		public String toString() {
+			// prints variable as itemName
+			return this.materialName	;
 		}
 
 	}
